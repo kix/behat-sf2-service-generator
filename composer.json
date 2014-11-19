@@ -1,0 +1,30 @@
+{
+    "name":         "kix/behat-sf2-service-generator",
+    "description":  "Behat Symfony2 service generator",
+    "keywords":     ["BDD", "SpecBDD", "StoryBDD", "Symfony2"],
+    "homepage":     "https://github.com/kix/BehatExceptionListener",
+    "type":         "library",
+    "license":      "MIT",
+    "authors":      [
+        {
+            "name":      "Stepan Anchugov",
+            "email":     "kixxx1@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.4",
+        "kix/behat-exception-listener": "dev-master",
+        "rmiller/error-extension": "~0.1",
+        "rmiller/phpspec-extension": "~0.1",
+        "rmiller/exemplify-extension": "~0.2",
+        "rmiller/phpspec-run-extension": "~0.1"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Kix\\Symfony2ServiceExtension\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
