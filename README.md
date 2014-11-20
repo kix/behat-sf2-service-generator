@@ -74,4 +74,4 @@ class FeatureContext implements Context, SnippetAcceptingContext
 
 And boom:
 
-!(http://habrastorage.org/files/df9/b24/1bc/df9b241bc91a479fa27497303cd7fe47.png)
+![Example](http://habrastorage.org/files/df9/b24/1bc/df9b241bc91a479fa27497303cd7fe47.png)
